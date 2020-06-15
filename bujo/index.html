@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My Photos</title>
+    <title>Bullet Journal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -13,12 +13,12 @@
     body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
     .fa-anchor,.fa-coffee {font-size:200px}
-    .bgimg {
+  /*  .bgimg {
       background-position: center;
       background-size: cover;
-/*      background-image: ;
-      min-height: 100%; */
-    }
+      background-image: ;
+      min-height: 100%;
+    } */
 
     </style>
   </head>
@@ -29,48 +29,33 @@
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-teal" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         <a href="../template_home.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-white">Home</a>
         <a href="../articles/contens.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Articles</a>
-        <a href="pic_home.html" class="w3-bar-item w3-button w3-padding-large w3-white">Photos</a>
+        <a href="../photos/pic_home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Photos</a>
         <a href="../message.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Message</a>
-        <a href="../bujo/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hide-small">BuJo</a>
+        <a href="../bujo/index.html" class="w3-bar-item w3-button w3-padding-large w3-white">BuJo</a>
       </div>
 
       <!-- Navbar on small screens -->
       <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
         <a href="../template_home.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
         <a href="../articles/contens.html" class="w3-bar-item w3-button w3-padding-large w3-white">Articles</a>
-        <a href="pic_home.html" class="w3-bar-item w3-button w3-padding-large w3-white">Photos</a>
+        <a href="../photospic_home.html" class="w3-bar-item w3-button w3-padding-large w3-white">Photos</a>
         <a href="../message.html" class="w3-bar-item w3-button w3-padding-large w3-white">Message</a>
         <a href="../bujo/index.html" class="w3-bar-item w3-button w3-padding-large w3-white">BuJo</a>
-    
       </div>
     </div>
 
-    <h1>Favorite Photos</h1>
-    <h2>2019</h2>
-    <p>
-      <a href="image/DSCF4180-1-4.jpg" target="_blank" title="see full picture">
-        <img src="image/DSCF4180-1-4.jpg"
-          alt="Twilight of the Brooklyn bridge"
-          height="240">
-        </a>
-      <a href="image/DSCF4046.JPG" target="_blank" title="see full picuture">
-        <img src="image/DSCF4046.JPG" alt="Chicago loop crossing" height="240">
-      </a>
-      <a href="image/DSCF4291-1.jpg" target="_blank" title="see full picture">
-        <img src="image/DSCF4291-1.jpg" alt="Desert tree" height="240">
-      </a>
-  </p>
-  <script>
-  // Used to toggle the menu on small screens when clicking on the menu button
-  function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else {
-      x.className = x.className.replace(" w3-show", "");
-    }
-  }
-  </script>
+    <h1>My Bullet Journal</h1>
 
+    <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
   </body>
 </html>
