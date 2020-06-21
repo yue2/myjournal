@@ -1,1 +1,10 @@
 name: My Articles
+url:
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+title: My Articles

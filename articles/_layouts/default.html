@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My Articles</title>
+    <title>{{page.title}} | {{site.title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://yue2.github.io/myjournal/css/main.css">
 
 <!-- put in css file
     <style media="screen">
@@ -52,8 +52,8 @@
     </header>
 
     <div class="w3-row-padding w3-container w3-content" id="header">
-      <h1>Recent posts</h1>
-      <p>What's new in mind</p>
+      <h1>{{page.title}}</h1>
+      <p>{{content}}</p>
     </div>
 
     <script>

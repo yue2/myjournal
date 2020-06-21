@@ -1,7 +1,7 @@
 ---
-title: My articles
-layout: default
+title: Recent Posts
+layout: home
 ---
 
-#Recent Posts
+
 What's new in mind?
