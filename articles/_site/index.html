@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Recent Posts | My Articles</title>
+    <title>My Articles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -53,29 +53,31 @@
 
     <div class="w3-row-padding w3-container w3-content" id="header">
       <h1>Recent Posts</h1>
-      <p><p>What’s new in mind?</p>
+      <p>What’s new in mind?</p>
 
-<ul class="myposts">
 
-    <li><a href="/2020/06/21/first-post.html">My First Post</a>
-    <span class="postDate">Jun 21, 2020</span>
-    </li>
+<div class="myposts">
+  <ul>
+    
+        <li><a href="/2020/06/21/first-post.html">My First Post</a>
+        <span class="postDate">Jun 21, 2020</span>
+        </li>
+    
+  </ul>
 
-</ul>
-</p>
+</div>
+
     </div>
 
-    <script>
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
-    </script>
+    <!--comment window-->
+    <div class="w3-row-padding w3-padding-64 w3-container w3-content">
+
+    </div>
+
+    <!-- previous messages-->
+    <div class="w3-row-padding w3-padding-64 w3-container w3-content">
+
+    </div>
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-32 w3-center w3-opacity w3-teal">
@@ -85,6 +87,18 @@
         the property of their respective owners.</p>
      </div>
     </footer>
+
+  <script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
 
   </body>
 </html>

@@ -1,6 +1,8 @@
 ---
 title: My First Post
-layout: default
+layout: blog
+author: me
 ---
 
 Some contents...
+## Markdown heading 2
