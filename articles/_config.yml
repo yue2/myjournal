@@ -8,3 +8,5 @@ kramdown:
  syntax_highlighter: rouge
 
 title: My Articles
+
+permalink: articles/

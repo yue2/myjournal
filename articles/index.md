@@ -1,6 +1,7 @@
 ---
 title: Recent Posts
 layout: home
+permalink: /index
 ---
 
 

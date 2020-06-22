@@ -35,5 +35,8 @@ a:hover{
 }
 
 .passage{
-  line-height: 1.6em;
+  line-height: 2em;
+  padding-left: 32px;
+  padding-right: 32px;
+  text-align: justify;
 }
