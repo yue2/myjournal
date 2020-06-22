@@ -28,5 +28,12 @@ body,html{height: 100%}
 }
 
 a:link, a:visited{
-  black;
+  text-decoration: none;
+}
+a:hover{
+
+}
+
+.passage{
+  line-height: 1.6em;
 }
